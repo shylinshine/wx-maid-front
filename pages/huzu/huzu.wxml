@@ -1,0 +1,36 @@
+<!--pages/huzu/huzu.wxml-->
+
+<van-notice-bar
+  color="#1989fa"
+  background="#ecf9ff"
+  left-icon="info-o"
+  text="出于安全考虑，本机器只接受以下几类卫生巾，如有不便，请多谅解！"
+/>
+<view class="root">
+<div class="notice"><text>选择互助的卫生巾</text></div>
+<div class="swiper"></div>
+<div class="card"></div>
+<div class="confir">
+  
+  <van-dialog
+  
+  use-slot
+  show="{{ show }}"
+  
+  confirm-button-color="pink"
+  width="600rpx"
+  custom-style="background:#FFE2E2;height:570rpx"
+  bind:close="onClose"
+  bind:getuserinfo="getUserInfo"
+>
+  <image src="../../static/jm/success.jpg" />
+</van-dialog>
+
+  <van-button color="#F596AA" type="primary" block bindtap="showdialgo">确认互助</van-button>
+</div>
+
+</view>
+
+<!-- <view>{{time}}</view>
+
+<view>{{time[0]}}-{{time[1]}}-{{time[2]}}</view> -->

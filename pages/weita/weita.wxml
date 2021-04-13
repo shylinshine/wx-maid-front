@@ -1,0 +1,18 @@
+<view class="root">
+<view class="map">
+  <image src="../../static/weita/map.jpg"></image>
+</view>
+<view class="scan" bindtap="getUrl">
+  <image src="../../static/weita/scan.jpg"></image>
+</view>
+<view class="logo">
+  <image src="../../static/weita/logo.jpg"></image>
+</view>
+
+<view class="ad">
+<image src="../../static/scroll1/ad1.jpg"></image>
+
+</view>
+
+
+</view>

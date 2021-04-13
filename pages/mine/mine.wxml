@@ -1,0 +1,28 @@
+
+<view class="root">
+
+
+  <view class="login">
+  <image src="../../static/mine/login.jpg"></image>
+</view>
+
+<view class="cell-detail">
+  <van-cell-group>
+  <van-cell title="账户与安全"/>
+  <van-cell title="通用" />
+  <van-cell title="隐私"/>
+  <van-cell title="实名认证"/>
+  <van-cell title="反馈与帮助"/>
+  <van-cell title="关于卫她" />
+  
+  
+</van-cell-group>
+
+
+</view>
+
+<view class="logout"> 
+  <van-button color="#F596AA" type="primary" block>退出当前账户</van-button>
+
+</view>
+</view>

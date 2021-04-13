@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/weita/weita",
+    "pages/mine/mine",
+    "pages/help/help",
+    "pages/huzu/huzu",
+    "pages/jumphuzu/jm",
+    "pages/quhuo/quhuo"
+  ],
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-cell": "@vant/weapp/cell/index",
+  "van-cell-group": "@vant/weapp/cell-group/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFE2E2",
+    "navigationBarTitleText": "卫她",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "FFE2E2",
+    "selectedColor": "#02A7F0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商城",
+        "iconPath": "static/icon/shop2.jpg",
+        "selectedIconPath": "static/icon/shop2.jpg"
+      },
+      {
+        "pagePath": "pages/weita/weita",
+        "text": "卫她",
+        "iconPath": "static/icon/wei2.jpg",
+        "selectedIconPath": "static/icon/wei2.jpg"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/icon/mine.jpg",
+        "selectedIconPath": "static/icon/mine.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

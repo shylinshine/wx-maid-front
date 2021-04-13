@@ -1,0 +1,26 @@
+<view class="root">
+<view class="notice"><text>选择互助的卫生巾</text></view>
+<view class="swiper"></view>
+<view class="card">
+<!-- <view class="c1">商品信息： 高洁丝少女肌日用 240mm</view> -->
+<!-- 用图片代替图标 -->
+<!-- <view class="c2"> <view class="left">选择数量：</view>  <view class="right"><view class="r-content"><image src="../../static/jm/dec.jpg" bindtap="dec"></image> <view class="num">{{}}</view>  <image></image> </view>    </view>   </view> -->
+<!-- <view class="c3">是否需要收纳袋:</view> -->
+<image src="../../static/jm/getform.jpg"></image>
+
+
+  
+</view>
+<view class="confir">
+
+ <view class="confir-huzhu">
+  <van-button color="#F596AA" type="primary" block bindtap="showdialgo">确认取货</van-button>
+ </view>
+
+ <van-cell title="展示弹出层" is-link bind:click="showPopup" />
+
+<van-popup show="{{ show }}" bind:close="onClose">内容gkgkgghb</van-popup>
+
+</view>
+
+</view>

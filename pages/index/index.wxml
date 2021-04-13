@@ -1,0 +1,67 @@
+<view class="root">
+<!-- 固定高度 -->
+<view class="lunbo">
+  <swiper class="carousel" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{800}}">
+    <swiper-item>
+      <image class="indexScroll" src="../../static/scroll1/ad1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="indexScroll" src="../../static/scroll1/ad2.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 内容区域，自适应高度 -->
+<view class="content1">
+  <!-- 左边 -->
+  <view class="imgl">
+    <image src="../../static/content/w1.jpg"></image>
+  </view>
+  
+
+  <!-- 右边 -->
+  <view class="imgr">
+    <image src="../../static/content/w2.jpg"></image>
+  </view>
+  
+    
+    
+
+</view>
+<view class="content2">
+<!-- 左边 -->
+<view class="imgl">
+    <image src="../../static/content/w3.jpg"></image>
+  </view>
+  
+
+  <!-- 右边 -->
+  <view class="imgr">
+    <image src="../../static/content/ws.jpg"></image>
+  </view>
+  
+
+<view class="search">
+  <image src="../../static/weita/search.jpg"></image>
+</view>
+
+<view class="note">
+  <image src="../../static/weita/note.jpg"></image>
+</view>
+
+
+<view class="car" bindtap="test">
+  <image src="../../static/weita/cart.jpg"></image>
+</view>
+
+</view>
+
+
+
+
+</view>
+
+
+
+
+
+

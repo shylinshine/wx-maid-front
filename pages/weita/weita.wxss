@@ -1,0 +1,67 @@
+page {
+  height: 100%;
+
+}
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+}
+
+.map {
+  
+  flex: 2;
+  
+}
+
+.map image {
+  width: 730rpx;
+  height: 340rpx;
+  margin-top: 40rpx;
+  margin-left: 10rpx;
+  border-radius: 10rpx;
+}
+
+.scan {
+  flex: 1;
+}
+.scan image {
+  width: 730rpx;
+  height: 160rpx;
+  margin-left: 10rpx;
+  /* float:right; */
+  /* padding-right: 10px; */
+  /* padding-left: 10px; */
+  /* border-radius: 20px; */
+  
+  
+}
+
+.logo {
+  
+  flex: 1;
+  
+}
+
+
+.logo image {
+  width: 720rpx;
+  margin-top: 20rpx;
+  height: 140rpx;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+
+.ad {
+  flex: 1;
+  
+}
+
+.ad image {
+  margin-left: 10px;
+  width: 720rpx;
+  margin-top: 20rpx;
+  height: 140rpx;
+}
